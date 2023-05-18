@@ -1,5 +1,5 @@
 /*
-GFG Problem Link: https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+GFG Problem Link: https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 Given a directed graph. The task is to do Breadth First Traversal of this graph starting from 0.
 Note: One can move from node u to node v only if there's an edge from u to v and find the BFS traversal
 of the graph starting from the 0th vertex, from left to right according to the graph. Also, you should
@@ -20,7 +20,6 @@ Reason: Traversal vector stores upto V elements
 #include <bits/stdc++.h>
 using namespace std;
 
-// } Driver Code Ends
 class Solution
 {
 public:
