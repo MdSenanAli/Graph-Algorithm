@@ -4,6 +4,17 @@ Given a directed graph. The task is to do Breadth First Traversal of this graph 
 Note: One can move from node u to node v only if there's an edge from u to v and find the BFS traversal
 of the graph starting from the 0th vertex, from left to right according to the graph. Also, you should
 only take nodes directly or indirectly connected from Node 0 in consideration.
+
+Time Complexity: O(V + 2E)
+Reason: The while loop will run for all the nodes, therefore O(V)
+        and the inner for loop will run for E/2E(directed/undirected) times
+
+Space Complexity: O(3V)
+Reason: Traversal vector stores upto V elements
+        visited vector is of size V
+        and queue can have atmost V elements.
+
+
 */
 //{ Driver Code Starts
 #include <bits/stdc++.h>
